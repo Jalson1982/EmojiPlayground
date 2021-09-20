@@ -10,8 +10,5 @@ class EmojiApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         EmojiManager.install(GoogleEmojiProvider())
-        OnlyEmojisInputFilter()
-
-        MaximalNumberOfEmojisInputFilter(5)
     }
 }
